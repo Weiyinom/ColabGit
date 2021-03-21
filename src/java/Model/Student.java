@@ -20,6 +20,27 @@ public class Student {
         this.name = name;
         this.dob = dob;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getDob() {
+        return dob;
+    }
+
+    public void setDob(String dob) {
+        this.dob = dob;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" + "name=" + name + ", dob=" + dob + '}';
+    }
     
     
 }
