@@ -13,4 +13,12 @@ public class Teacher {
     private String name;
     private String desc;
     
+     public Teacher() {
+    }
+
+    public Teacher(String name, String desc) {
+        this.name = name;
+        this.desc = desc;
+    }
+    
 }
